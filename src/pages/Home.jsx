@@ -171,7 +171,7 @@ function Home() {
                 <img className="card-img-top" src={Web1} alt="" />
                 <div className="p-5 card-body">
                   <div className="fw-bold text-uppercase mb-4 fs-3 card-title h5">
-                    Proyecto 1
+                    Web Polyphia
                   </div>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li className="mx-2">
@@ -215,7 +215,7 @@ function Home() {
                 <img className="card-img-top" src={Web2} alt="" />
                 <div className="p-5 card-body">
                   <div className="fw-bold text-uppercase mb-4 fs-3 card-title h5">
-                    Proyecto 1
+                    Web Ideas Digitales
                   </div>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li className="mx-2">
@@ -275,7 +275,7 @@ function Home() {
 
                 <div className="p-5 card-body">
                   <div className="fw-bold text-uppercase mb-4 fs-3 card-title h5">
-                    Proyecto 1
+                    Web Bike Shop
                   </div>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li className="mx-2">
@@ -334,7 +334,7 @@ function Home() {
                 </div>
                 <div className="p-5 card-body">
                   <div className="fw-bold text-uppercase mb-4 fs-3 card-title h5">
-                    Proyecto 1
+                    Bike Shop App
                   </div>
                   <div className="row align-items-center justify-content-center">
                     <img
@@ -370,7 +370,7 @@ function Home() {
                 </div>
                 <div className="p-5 card-body">
                   <div className="fw-bold text-uppercase mb-4 fs-3 card-title h5">
-                    Proyecto 1
+                    Sistema1043 App
                   </div>
                   <div className="row align-items-center justify-content-center">
                     <img
