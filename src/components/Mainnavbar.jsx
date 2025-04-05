@@ -10,7 +10,7 @@ function Mainnavbar() {
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                     <Nav className='me-auto w-100 d-flex justify-content-end'>
-                        <Nav.Link href='#header'>Home</Nav.Link>
+                        <Nav.Link href='#header'>Inicio</Nav.Link>
                         <Nav.Link href='#about'>Sobre mi</Nav.Link>
                         <Nav.Link href='#projects'>Proyectos</Nav.Link>
                         <Nav.Link href='#contact'>Contáctame</Nav.Link>

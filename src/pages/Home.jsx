@@ -43,79 +43,80 @@ function Home() {
           <div className="flex-column-reverse flex-md-row row">
             <div className="col-md-6 mt-5 mt-md-0 d-flex flex-column justify-content-center align-items-center">
               <div className="about-fotos">
-              <div
-                id="carouselExampleRide"
-                className="carousel slide"
-                data-bs-ride="true"
-              >
-                <div className="carousel-inner">
-                  <div className="carousel-item active">
-                    <img src={Foto1} className="" alt="..." />
+                <div
+                  id="carouselExampleRide"
+                  className="carousel slide"
+                  data-bs-ride="true"
+                >
+                  <div className="carousel-inner">
+                    <div className="carousel-item active">
+                      <img src={Foto1} className="" alt="..." />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Foto2} className="" alt="..." />
+                    </div>
+                    <div className="carousel-item">
+                      <img src={Foto3} className="" alt="..." />
+                    </div>
                   </div>
-                  <div className="carousel-item">
-                    <img src={Foto2} className="" alt="..." />
-                  </div>
-                  <div className="carousel-item">
-                    <img src={Foto3} className="" alt="..." />
-                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleRide"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleRide"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                    />
+                    <span className="visually-hidden">Next</span>
+                  </button>
                 </div>
-                <button
-                  className="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleRide"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  />
-                  <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                  className="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleRide"
-                  data-bs-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  />
-                  <span className="visually-hidden">Next</span>
-                </button>
               </div>
-              </div>
-              
             </div>
             <div className="col-md-6 d-flex flex-column justify-content-center">
               <h2 className="mx-auto mb-5 text-uppercase">Sobre mi</h2>
               <p className="text-start">
-                Soy Diego Aparicio Vela, bachiller en Arte Culinario. Durante mi
-                primera carrera me di cuenta que mi pasion es la tecnología por
-                lo que ahora me encuentro estudiando desarrollo de software en
-                la ISIL. Mi objetivo es crear soluciones tecnológicas que
-                mejoren la experiencia del usuario, utilizando herramientas
-                modernas como React, JavaScript y frameworks como Tailwind y
-                Bootstrap. Me encanta aprender constantemente y enfrentar
-                desafíos que me permitan crecer tanto profesional como
-                técnicamente.
+                Soy Diego, bachiller en Arte Culinario y estudiante de
+                Desarrollo de Software en ISIL. Descubrí mi pasión por la
+                tecnología durante mi primera carrera, lo que me llevó a
+                especializarme en herramientas modernas como React, JavaScript,
+                Tailwind CSS y Bootstrap para crear soluciones que mejoren la
+                experiencia del usuario.
                 <br />
                 <br />
-                Mi experiencia en cocina me ha dado una base fuerte en la
-                comunicación, la colaboración, trabajo en equipo, resolución de
-                problemas y tolerancia al estrés. Además tambien me apasiona el
-                deporte como el ciclismo, lo cual me ayuda a mantener la salud y
-                la disciplina, por otro lado tambien me gusta la fotografia lo
-                cual me ayuda a desarrollar mis habilidades creativas.
+                He trabajado en dos ocasiones en los
+                Estados Unidos, lo que me permitió desarrollar un manejo
+                avanzado del inglés y habilidades interculturales. Mi
+                experiencia en cocina me ha brindado una base sólida en
+                comunicación, trabajo en equipo y resolución de problemas bajo
+                presión, cualidades que aplico en el desarrollo de software.
+                <br />
+                Soy
+                apasionado del ciclismo y la fotografía, actividades que
+                fomentan mi disciplina y creatividad. Siempre busco aprender y
+                superar desafíos para crecer profesional y personalmente.
               </p>
               <div>
                 <h4 className="mb-3">Educacion</h4>
                 <div>
-                  <h5>Bachiller en Arte Culinario</h5>
+                  <h5>CS50x: CS50's Introduction to Computer Science</h5>
                   <p>
-                    Universidad San Ignacio de Loyola
+                    HarvardX
                     <br />
-                    Marzo 2015 - Diciembre 2021
+                    Enero 2025 - Actualidad
                   </p>
                 </div>
                 <div>
@@ -140,6 +141,14 @@ function Home() {
                     Platzi
                     <br />
                     Marzo 2023
+                  </p>
+                </div>
+                <div>
+                  <h5>Bachiller en Arte Culinario</h5>
+                  <p>
+                    Universidad San Ignacio de Loyola
+                    <br />
+                    Marzo 2015 - Diciembre 2021
                   </p>
                 </div>
                 <a
@@ -394,7 +403,6 @@ function Home() {
               <h2 className="mb-5">Contáctame</h2>
               <p>diegoaparicio46@gmail.com</p>
               <p>+51 960 251 264</p>
-              <p>Av. San Borja Norte 1794 Lima, Peru</p>
               <hr className="w-50 mx-auto" />
               <ul className="list-unstyled d-flex justify-content-center">
                 <li className="mx-2">
