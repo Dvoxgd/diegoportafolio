@@ -89,24 +89,23 @@ function Home() {
             <div className="col-md-6 d-flex flex-column justify-content-center">
               <h2 className="mx-auto mb-5 text-uppercase">Sobre mi</h2>
               <p className="text-start">
-                Soy Diego, bachiller en Arte Culinario y estudiante de
-                Desarrollo de Software en ISIL. Descubrí mi pasión por la
-                tecnología durante mi primera carrera, lo que me llevó a
-                especializarme en herramientas modernas como React, JavaScript,
-                Tailwind CSS y Bootstrap para crear soluciones que mejoren la
-                experiencia del usuario.
+                Soy Diego, bachiller en Arte Culinario y estudiante de <strong>Desarrollo de Software en ISIL</strong>. Descubrí mi
+                pasión por la tecnología durante mi primera carrera, lo que me
+                llevó a especializarme en herramientas modernas como <strong>React,
+                JavaScript, Tailwind CSS y Bootstrap</strong> para crear soluciones que
+                mejoren la experiencia del usuario.
                 <br />
                 <br />
-                He trabajado en dos ocasiones en los
-                Estados Unidos, lo que me permitió desarrollar un manejo
-                avanzado del inglés y habilidades interculturales. Mi
-                experiencia en cocina me ha brindado una base sólida en
-                comunicación, trabajo en equipo y resolución de problemas bajo
-                presión, cualidades que aplico en el desarrollo de software.
+                He trabajado en dos ocasiones en los Estados Unidos, lo que me
+                permitió desarrollar un <strong>manejo avanzado del inglés</strong> y habilidades
+                interculturales. Mi experiencia en cocina me ha brindado una
+                base sólida en <strong>comunicación, trabajo en equipo y resolución de
+                problemas bajo presión</strong>, cualidades que aplico en el desarrollo
+                de software.
                 <br />
-                Soy
-                apasionado del ciclismo y la fotografía, actividades que
-                fomentan mi disciplina y creatividad. Siempre busco aprender y
+                <br />
+                Soy <strong>apasionado del ciclismo y la fotografía</strong>, actividades que
+                fomentan mi <strong>disciplina y creatividad</strong>. Siempre busco aprender y
                 superar desafíos para crecer profesional y personalmente.
               </p>
               <div>
