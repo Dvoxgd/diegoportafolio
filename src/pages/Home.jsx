@@ -109,7 +109,7 @@ function Home() {
                 superar desafíos para crecer profesional y personalmente.
               </p>
               <div>
-                <h4 className="mb-3">Educacion</h4>
+                <h4 className="mb-3">Educación</h4>
                 <div>
                   <h5>CS50x: CS50's Introduction to Computer Science</h5>
                   <p>
